@@ -63,7 +63,7 @@ class Conv:
         """
         Convolution pass.
         Args:
-            x: Input, shape as like (batch_size, input_channel, height, width)
+            x: Input, shape as like (input_channel, height, width)
 
         See Also:
             http://cs231n.github.io/convolutional-networks/#conv
